@@ -1,0 +1,129 @@
+img {
+height: 100%;
+width: 100%;
+}
+.carousel-item {
+height: 90vh;
+}
+.fill {
+top: 30px;
+left: 0;
+right: 15px;
+bottom: 0;
+position: absolute;
+width: auto;
+height: auto;
+}
+
+.row-equal-height {
+height: 50%;
+padding-left: 0;
+padding-right: 0;
+overflow: hidden;
+}
+
+.video-div {
+background-color: #e8e8e8;
+height: 100%;
+z-index: -1;
+}
+
+.screen-1-right-img {
+opacity: 0.5;
+
+}
+.screen-1-offset-6 {
+height: 80%;
+}
+
+.title-text-wrapper{
+width: 100%;
+height: auto;
+bottom: 0px;
+top: 0px;
+left: 0;
+position: absolute;
+}
+.screen-1-title-text {
+top: 35%;
+position: absolute;
+width: 100px;
+left: 50%;
+margin-left: -50px;
+z-index: 10;
+}
+
+.hide {
+display: none;
+}
+.image-qtr-1 {
+opacity: 0.5;
+animation:animateright 0.4s
+}
+.image-qtr-3 {
+opacity: 0.5;
+animation:animateright 0.6s
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.screen-2-image-div > div {
+        height: 100%;
+    width: 100%;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+-o-transition: all .5s;
+transition: all .5s;
+}
+
+.screen-2-image-div:hover > div,
+.screen-2-image-div:focus > div {
+transform: scale(1.2);
+} 
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+mix-blend-mode: exclusion;
+text-align: center
+}
+
+.centered h1 {
+color: white;
+mix-blend-mode: difference;
+text-align: center
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+.animate-right{position:relative;}
+.animate-top{position:relative;animation:animatetop 1s}
+.animate-bottom{position:relative;animation:animatebottom 2s}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+@keyframes animateright{from{right:-300px;opacity: 0.5;} to{right:0;opacity: 0.5;}}
+
+/*------------------------------------------------------------------------*/
+#screen_2 {
+height: 80%;
+}
+
+
+#screen_2_image_div_1 {
+
+    background: url(../images/screen_2_image_1.jpeg);
+}
+#screen_2_image_div_2 {
+    background: url(../images/screen_2_image_2.jpg);
+}
+#screen_2_image_div_3 {
+    background: url(../images/screen_2_image_3.jpg);
+}
